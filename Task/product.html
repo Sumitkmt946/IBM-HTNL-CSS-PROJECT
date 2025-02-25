@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+      
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+       
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        .header p {
+            font-size: 22px;
+            margin-top: 10px;
+        }
+
+        .header button {
+            padding: 15px 25px;
+            font-size: 18px;
+            background-color: #ffffff;
+            color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .header button:hover {
+            background-color: #45a049;
+        }
+
+       
+        .features {
+            padding: 40px 0;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .feature-item {
+            display: inline-block;
+            width: 30%;
+            margin: 0 15px;
+            text-align: center;
+        }
+
+        .feature-item img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .feature-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .feature-item p {
+            font-size: 18px;
+            color: #777;
+        }
+
+        
+        .product-image {
+            padding: 40px 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .product-image img {
+            width: 60%;
+            border-radius: 10px;
+        }
+
+        
+        .pricing {
+            padding: 40px 0;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .pricing h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .pricing p {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .pricing button {
+            padding: 15px 25px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .pricing button:hover {
+            background-color: #45a049;
+        }
+
+       
+        .contact {
+            padding: 40px 0;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .contact form {
+            width: 50%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .contact label {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .contact input[type="text"],
+        .contact input[type="email"],
+        .contact textarea {
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            padding: 15px 25px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .contact button:hover {
+            background-color: #45a049;
+        }
+
+       
+        .footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .footer p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Watchs</h1>
+            <p>The best solution for your needs</p>
+            <button>Buy Now</button>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="feature-item">
+                <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6280/6280405_rd.jpg" alt="Feature 1">
+                <h3>Samsung 46mm smartwatch - Digital & Analog Watches</h3>
+                <p>Explanation of feature 1 and why it's important.</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6533/6533939_sd.jpg" alt="Feature 2">
+                <h3>JBL Vibe Beam True Wireless Earbuds Black</h3>
+                <p>Explanation of feature 2 and how it benefits you.</p>
+            </div>
+            <div class="feature-item">
+                <img src="https://th.bing.com/th/id/OIP.uv1AV82_ukKZNIbFfKLGKAHaHa?rs=1&pid=ImgDetMain" alt="Feature 3">
+                <h3>Catzon EC04 Wired Earphone With Type C Earbuds</h3>
+                <p>Explanation of feature 3 and why you’ll love it.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-image">
+        <div class="container">
+            <h2>Our Product in Action</h2>
+            <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?cs=srgb&dl=wood-wristwatch-time-190819.jpg&fm=jpg" alt="Product Image">
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <p><strong>Price:</strong>₹2,999</p>
+            <button>Buy Now</button>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Product Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

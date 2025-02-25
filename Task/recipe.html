@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 36px;
+        }
+
+        .header nav {
+            margin-top: 10px;
+        }
+
+        .header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .header nav a:hover {
+            text-decoration: underline;
+        }
+
+        
+        .recipe-list {
+            margin-top: 40px;
+        }
+
+        .recipe {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .recipe h2 {
+            font-size: 28px;
+            color: #333;
+        }
+
+        .recipe img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .recipe h3 {
+            font-size: 22px;
+            margin-top: 20px;
+        }
+
+        .recipe ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        .recipe ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .recipe p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+
+        .footer p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Recipe Website</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Recipes</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="recipe-list">
+            <article class="recipe">
+                <h2>Spaghetti Carbonara</h2>
+                <img src="https://th.bing.com/th/id/OIP.cR3fVWoUg4ZRO9gpJstEywAAAA?rs=1&pid=ImgDetMain" alt="Spaghetti Carbonara">
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>200g Spaghetti</li>
+                    <li>100g Pancetta</li>
+                    <li>2 Large Eggs</li>
+                    <li>50g Parmesan Cheese</li>
+                    <li>Salt and Pepper</li>
+                </ul>
+                <h3>Instructions</h3>
+                <p>1. Cook the spaghetti in salted boiling water according to package instructions.</p>
+                <p>2. While the pasta cooks, fry the pancetta in a pan until crispy.</p>
+                <p>3. In a bowl, whisk together eggs and Parmesan cheese. Season with salt and pepper.</p>
+                <p>4. Once the pasta is ready, combine with the pancetta and egg mixture. Stir until creamy.</p>
+                <p>5. Serve with extra Parmesan on top and enjoy!</p>
+            </article>
+
+            <article class="recipe">
+                <h2>Chicken Curry</h2>
+                <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Curry-recipe.jpg" alt="Chicken Curry">
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>500g Chicken Breast</li>
+                    <li>1 Onion</li>
+                    <li>2 Garlic Cloves</li>
+                    <li>200ml Coconut Milk</li>
+                    <li>1 tbsp Curry Powder</li>
+                    <li>Salt and Pepper</li>
+                </ul>
+                <h3>Instructions</h3>
+                <p>1. Dice the chicken breast and season with salt and pepper.</p>
+                <p>2. In a pan, sauté chopped onion and garlic until soft.</p>
+                <p>3. Add the chicken and curry powder, cooking until the chicken is browned.</p>
+                <p>4. Pour in the coconut milk and simmer for 15 minutes.</p>
+                <p>5. Serve with rice and enjoy!</p>
+            </article>
+
+            <article class="recipe">
+                <h2>Chocolate Cake</h2>
+                <img src="https://th.bing.com/th/id/OIP.Fw-199hoU0qcuFHEL9Vf8wHaLH?rs=1&pid=ImgDetMain" alt="Chocolate Cake">
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>200g Flour</li>
+                    <li>200g Sugar</li>
+                    <li>100g Cocoa Powder</li>
+                    <li>2 Eggs</li>
+                    <li>100ml Milk</li>
+                    <li>1 tsp Baking Powder</li>
+                </ul>
+                <h3>Instructions</h3>
+                <p>1. Preheat the oven to 180°C (350°F).</p>
+                <p>2. In a bowl, combine the dry ingredients (flour, sugar, cocoa, and baking powder).</p>
+                <p>3. Add eggs and milk, and mix until smooth.</p>
+                <p>4. Pour the batter into a greased cake tin and bake for 25-30 minutes.</p>
+                <p>5. Let cool, then serve with whipped cream or frosting.</p>
+            </article>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Recipe Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

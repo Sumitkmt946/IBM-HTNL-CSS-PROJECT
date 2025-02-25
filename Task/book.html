@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Reviews</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 36px;
+        }
+
+        .header nav {
+            margin-top: 10px;
+        }
+
+        .header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .header nav a:hover {
+            text-decoration: underline;
+        }
+
+
+        .book-list {
+            margin-top: 40px;
+        }
+
+        .book-item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .book-item img {
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .book-title {
+            font-size: 28px;
+            color: #333;
+        }
+
+        .book-author {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .rating {
+            font-size: 18px;
+            color: #f39c12;
+            margin-top: 10px;
+        }
+
+        .book-review {
+            font-size: 18px;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+
+        .footer p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Book Reviews</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Genres</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="book-list">
+            <div class="book-item">
+                <img src="https://images.alphacoders.com/678/thumb-1920-678289.jpg" alt="Book 1">
+                <h2 class="book-title">The Great Gatsby</h2>
+                <p class="book-author">by F. Scott Fitzgerald</p>
+                <div class="rating">Rating: ★★★★☆</div>
+                <p class="book-review">A captivating tale of wealth, love, and the American Dream. Fitzgerald's prose is
+                    poetic and poignant, weaving a story that resonates deeply about the complexities of life in the
+                    Jazz Age.</p>
+            </div>
+
+            <div class="book-item">
+                <img src="https://th.bing.com/th/id/OIP.OAvoAK8XIcg3t2Rk5PQYWgHaLY?rs=1&pid=ImgDetMain" alt="Book 2">
+                <h2 class="book-title">1984</h2>
+                <p class="book-author">by George Orwell</p>
+                <div class="rating">Rating: ★★★★★</div>
+                <p class="book-review">A chilling dystopian novel that explores themes of totalitarianism, surveillance,
+                    and individuality. Orwell's portrayal of a society where truth is manipulated and freedom is
+                    suppressed remains incredibly relevant today.</p>
+            </div>
+
+            <div class="book-item">
+                <img src="https://th.bing.com/th/id/R.278c3c644ba6cad96743746075e97c85?rik=t%2fblAMNyn5XElA&riu=http%3a%2f%2fwww.hdclub.ua%2ffiles%2ffilm%2fbig%2fbigi4ed41c953aee4.jpg&ehk=uPK6G7vqMHX3qYm%2fc8RESNj4Gb15nOFgRjS8G38KMYA%3d&risl=&pid=ImgRaw&r=0"
+                    alt="Book 3">
+                <h2 class="book-title">To Kill a Mockingbird</h2>
+                <p class="book-author">by Harper Lee</p>
+                <div class="rating">Rating: ★★★★☆</div>
+                <p class="book-review">An unforgettable story of racial injustice, innocence, and courage in the
+                    American South. The novel provides a powerful exploration of morality, compassion, and the
+                    complexities of human nature.</p>
+            </div>
+
+            <div class="book-item">
+                <img src="https://cdn.britannica.com/94/181394-050-2F76F7EE/Reproduction-cover-edition-The-Catcher-in-the.jpg" alt="Book 4">
+                <h2 class="book-title">The Catcher in the Rye</h2>
+                <p class="book-author">by J.D. Salinger</p>
+                <div class="rating">Rating: ★★★☆☆</div>
+                <p class="book-review">A rebellious journey through the mind of Holden Caulfield, a young man struggling
+                    with the world around him. Salinger's portrayal of alienation, disillusionment, and self-exploration
+                    is poignant, yet somewhat detached.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Book Reviews. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

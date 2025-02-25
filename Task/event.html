@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            color: #4CAF50;
+        }
+
+        .header p {
+            font-size: 20px;
+            color: #777;
+        }
+
+        
+        .event-details h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .event-details p {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+      
+        .rsvp h2 {
+            font-size: 28px;
+            margin-top: 40px;
+            color: #333;
+        }
+
+        .rsvp form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .rsvp label {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .rsvp input[type="text"],
+        .rsvp input[type="email"] {
+            padding: 8px;
+            margin-top: 5px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .rsvp input[type="radio"] {
+            margin-top: 10px;
+        }
+
+        
+        .contact {
+            margin-top: 40px;
+        }
+
+        .contact h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+      
+        .social-media {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .social-media h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #4CAF50;
+            margin: 0 10px;
+        }
+
+        .social-media a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Saraswathi Pooja</h1>
+            <p>Join us for a special celebration!</p>
+        </header>
+
+        <section class="event-details">
+            <h2>Saraswathi Pooja</h2>
+            <p><strong>Date:</strong> Tue, 25/02/2025</p>
+            <p><strong>Time:</strong> 9:15Am</p>
+            <p><strong>Location:</strong> VIT Bhopal, Play Ground</p>
+            <p><strong>Dress Code:</strong> Casual/Formal/Theme (Optional)</p>
+        </section>
+
+        <section class="rsvp">
+            <h2>RSVP</h2>
+            <form action="submit_rsvp.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label>Will you attend?</label><br>
+                <input type="radio" id="yes" name="attendance" value="yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="attendance" value="no">
+                <label for="no">No</label><br>
+                <input type="radio" id="maybe" name="attendance" value="maybe">
+                <label for="maybe">Maybe</label><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <p>If you need more details, feel free to reach out:</p>
+            <p><strong>Phone:</strong> 8107379394</p>
+            <p><strong>Email:</strong> summitkumawat888@email.com</p>
+        </section>
+
+        <section class="social-media">
+            <h2>Follow us for updates</h2>
+            <a href="https://facebook.com">Facebook</a> |
+            <a href="https://instagram.com">Instagram</a> |
+            <a href="https://twitter.com">Twitter</a>
+        </section>
+    </div>
+</body>
+
+</html>
